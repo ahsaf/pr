@@ -1,0 +1,209 @@
+
+body {
+    background: #f1f0ee;
+    color: #272624;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1; }
+    body#bg-img {
+      background: url("./bgi.jpg");
+      background-attachment: fixed;
+    background-size: cover;   
+    }
+      body#bg-img:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+
+      #home{
+        position: fixed;
+      }
+.nav{
+    
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    position: fixed;
+     z-index: 3;
+ 
+  top: 0;
+}
+.active{
+    border: #272624 solid 2px;
+    border-radius: 10%;
+}
+
+.portrait {
+  width: 300px;
+  height: 300px;
+  background: url("abtpic.png");
+  background-position: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 50%;
+  border: solid 3px #7f3c2b; }
+
+.navitem{
+  
+    color: #272624;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+.navitem:hover{
+  border: #272624 solid 2px;
+  border-radius: 10%;
+}
+.navoptns{
+    list-style: none;
+}
+.hhh{
+  color: black;
+}
+a{
+    text-decoration: none;
+}
+.emailc{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.navoptns{
+    display: flex;
+   
+    
+}
+.mname{
+    font-size: 30px;
+}
+#abt{
+  background-image: url(./nbg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.about-info {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bio .''job3 .''job4 .''job5 .'
+                       'job1 .' 'job2 .';
+  grid-template-columns: 2fr 1fr ;
+  
+ }
+ .about-info .job-3 {
+ grid-area: job3;
+ 
+
+}
+.ht{
+  text-align:center;color: black; border-top: 1px black solid;
+   border-right: 1px black solid;
+   padding: 10px;
+}
+.hta{
+  text-align:center;color: black; border-bottom: 1px black solid;
+   border-right: 1px black solid;
+   padding: 10px;
+}
+.wrkslct{
+  display: flex;
+}
+ .about-info .job-4 {
+ grid-area: job4;
+
+}
+.cname{
+  font-size: 20px;
+}
+ .about-info .wrk {
+ grid-area: job5;
+
+}
+.play{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+  .about-info .bio {
+    grid-area: bio; }
+  .about-info .job-1 {
+    grid-area: job1; }
+  .about-info .job-2 {
+    grid-area: job2; }
+  .about-info .job, .about-info .bio {
+    line-height: 20px;
+    background: #b3b2b2;
+    padding: 0.5rem;
+    border-bottom: #7f3c2b 5px solid; }
+    .about-info .job .hhh:hover, .about-info .bio .hhh:hover {
+      color: #7f3c2b;
+      transition: all 0.5s ease-out; }
+
+      .projects {
+        display: grid;
+        grid-gap: 0.7rem;
+        grid-template-columns: repeat(4, 1fr); }
+        .projects img {
+          width: 100%;
+          height: 200px;
+          border: 3px white solid; }
+          .projects img:hover {
+            opacity: 0.5;
+            border-color: #7f3c2b;
+            transition: all 0.5s ease-out; }
+      
+      .btn {
+        display: block;
+        padding: 0.5rem 1rem;
+        border: 0;
+        margin-bottom: 0.3rem;
+        background: black;
+        color: white; }
+        .btn:hover {
+          background: #7f3c2b;
+          color: black; }
+  .inst{
+    color: black;
+  }
+  h1, h2, h3, h4 {
+    margin-bottom: 0;
+    font-weight: 400; }
+    h1.mainheading, h2.mainheading, h3.mainheading, h4.mainheading {
+      font-size: 4rem;
+       }
+    h1.subheading, h2.subheading, h3.subheading, h4.subheading {
+      margin-bottom: 2rem;
+      padding: 0.2rem 1rem;
+      width: 635px;
+      background: rgba(133, 133, 133, 0.5); }
+  
+  a {
+    text-decoration: none;
+    color: white; }
+  
+  header {
+    position: fixed;
+    z-index: 2; }
+  
+  .secondary {
+    color: #7f3c2b; }
+  
+  main {
+    padding: 3rem;
+  
+    min-height: calc(100vh - 60px); }
+    main .icons {
+      margin-top: 0.5rem; }
+      main .icons a {
+        color: #272624;
+        padding: 0.2rem; }
+        main .icons a:hover {
+          color: #7f3c2b;
+          transition: all 0.5s ease-out; }
