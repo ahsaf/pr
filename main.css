@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+   
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, rgba(15, 2, 2, 0.14) 0%, rgba(0, 0, 0, 0.45) 100%);
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.homehead{
+   position: absolute;
+
+margin-left: 50px;
+margin-top: 200px;
+
+font-family: Tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+
+
+color: #000000;
+}
+.subh{
+   position: absolute;
+
+margin-left: 50px;
+margin-top: 250px;
+
+font-family: Tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+
+color: #444444;
+}
+.subh2{
+   position: absolute;
+
+margin-left: 50px;
+bottom: 20px;
+
+font-family: Tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+
+color: #444444;
+}
+.pot{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    bottom: 0;
+    right: 10px;
+}
+
+.nav{
+    width:100%;
+    position: fixed;
+  
+    top:0;
+    background-color: #ccc;
+    z-index: 3;
+
+}
+.nav-links{
+    
+    float: right;
+    width:40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+ .icons {
+   
+margin-left: 30px; }
+   .icons a {
+      color: #272624;
+      padding: 0.2rem; }
+      .icons a:hover {
+        color: rgb(3, 79, 114);
+        transition: all 0.5s ease-out; }
+.hm{
+position: absolute;
+margin-left: 50px;
+bottom: 50px;
+}
+.link{
+    
+    
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 15px;
+    cursor: pointer;
+    color: black;
+}
+.link a:hover{
+    color: #555;
+}
+.wrkfls{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #aaa;
+}
+.wrkfls2{
+    color: #333;
+}
+.web{
+  
+    background: url('./web.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.weblogo{
+    width: 300px;
+    margin-left: 20px;
+}
+.content{
+    color: white;
+    font-family: Tahoma;
+    width: 500px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: justify;
+}
+.content2{
+    color: black;
+    font-family: Tahoma;
+    width: 500px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: justify;
+}
+.btn{
+   margin-top: 20px;
+
+}
+.btn2{
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.btntxt{
+ 
+    margin-left: 30px;
+  
+    
+    
+    background: #071E36;
+    border-radius: 7px;
+    width: 100%;
+
+font-family: Tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+
+padding: 5px 10px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #974040;
+}
+
+.zentone{
+  
+    background: url('./zentone.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: scroll;
+}
+
+.zlogo{
+width: 200px;
+margin: 20px 20px;
+margin-top: 70px;
+margin-left: 30px;
+}
+.zentonelink{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+
+}
+.ytb{
+    position: absolute;
+    right: 50px;
+    margin-top: 120px;
+}
+
+.kare{
+    
+    background: url('./kare.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: scroll;
+}
+.karelogo{
+    width: 300px;
+    margin: 20px 30px;
+    margin-top: 50px;
+    }
+
+    .jl{
+       
+        background: url('./jl2.jpg') no-repeat center center/cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .about{
+        
+        background: url('./abot2.jpg') no-repeat center center/cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .ataat{
+  
+        background: linear-gradient(180deg, rgba(15, 2, 2, 0.14) 0%, rgba(0, 0, 0, 0.45) 100%);
+        height: 100vh;
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .jllogo{
+        width: 100px;
+        height: 100px;
+        margin: 20px 20px;
+        margin-top: 70px;
+    }
+    .jlhead{
+       
+        margin-top: 110px;
+
+margin-left: 0;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 146.2%;/* or 44px */
+text-align: justify;
+text-transform: uppercase;
+
+color: #CECACA;
+
+    }
+    .bio{
+        color: white;
+        font-family: Tahoma;
+        font-size: 20px;
+        margin: 30px;
+       
+    }
+    .view{
+        position: absolute;
+        margin-top:110px;
+    }
+    .resume{
+        cursor: pointer;
+        margin-left: 30px;
+        margin-top: 20px;
+        background: #181616;
+
+border: 1px solid  rgb(34, 91, 151);
+box-sizing: border-box;
+border-radius: 9px;
+padding: 10px 20px;
+color: white;
+font-family: tahoma;
+    }
+    .resume:hover{
+        border: 1px solid #AC0000;
+    }
+    .contact{
+  
+        background: white;
+        height: 100vh;
+        width: 100%;
+    }
+    .ahsaf{
+        font-family: tahoma;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .contxt{
+        margin-left: 20px;
+        font-family: tahoma;
+        
+    }
+    .contactme{
+        margin-left: 20px;
+        font-family: tahoma;
+        font-size: 20px;
+    }
+    .vie{
+        flex:1;
+    }
+    .form{
+        flex:1;
+    }
+    .frm{
+margin-top: 120px;
+    }
+    .name{
+        background: #F4F4F4;
+border: 1px solid rgba(0, 0, 0, 0.46);
+box-sizing: border-box;
+border-radius: 3px;
+width: 510px;
+height: 32px;
+padding-left: 5px;
+margin-left: 20px;
+margin-top: 10px;
+    }
+    .msg{
+        background: #F4F4F4;
+border: 1px solid rgba(0, 0, 0, 0.46);
+box-sizing: border-box;
+border-radius: 3px;
+width: 510px;
+height: 132px;
+padding-left: 5px;
+margin-left: 20px;
+margin-top: 10px;
+font-size: 16px;
+    }
+    .sbtn{
+        background: #6C6969;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 5px;
+        width: 100px;
+        
+
+box-sizing: border-box;
+border-radius: 2px;
+padding: 5px 10px;
+color: white;
+font-family: tahoma;
+    }
+    .good{
+        color: #CECACA;
+        opacity: 0.6;
+        position: absolute;
+        margin-left: 705px;
+        width:200px;
+        
+      
+    }
